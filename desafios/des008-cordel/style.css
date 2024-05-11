@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "Lilita";
+    src: url(LilitaOne-Regular.ttf); format:(truetype);
+}
+@font-face {
+    font-family: "Shantell";
+    src: url(ShantellSans-VariableFont_BNCE\,INFM\,SPAC\,wght.ttf); format:(truetype)
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    background-color: black;
+    height: 170px;
+    color:white;
+    padding:10px;
+}
+header > h1{
+    font-family: "Lilita";
+    text-align: center;
+    margin-top: 46px;
+}
+header > p{
+    text-align: center;
+}
+main > section{
+    font-family: "Shantell";
+    
+}
+
