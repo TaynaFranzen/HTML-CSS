@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+table{
+    width: 400px;
+    border-collapse: collapse;
+}
+thead{
+    background-color: gray;
+    color: white;
+}
+td{
+    border: 1px solid black;
+    padding:10px;
+}
+.resultado{
+    background-color:gray ;
+    color: white;
+}
