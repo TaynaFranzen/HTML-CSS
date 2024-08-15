@@ -7,7 +7,36 @@
 </head>
 <body>
     <h1>Formularios</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="estado" id="iest">
+
+                <option value="" selected>--- Escolha ---</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="MA">Maranhão</option>
+                <option value="PE">Pernambuco</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="PR">Parana</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="RS">Rio grande do Sul</option>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lista">
+            <datalist id="lista">
+                <option value="Adm">Administrador</option>
+                <option value="Prof">Professor</option>
+                <option value="Dev">Desenvolvedor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="imsg">Mensagem</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10" placeholder="escreva aqui..."></textarea>
+        </p>
 
 
         <input type="submit" value="Enviar">
