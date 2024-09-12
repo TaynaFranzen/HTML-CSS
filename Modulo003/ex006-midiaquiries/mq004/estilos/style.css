@@ -42,19 +42,9 @@ img{
 
 
 
-#phone{
-    display: block;
-}
-#tablet{
-    display: none;
-}
-#print{
-   display: none;
-}
-#notebook{
-    display: none;
-}
-#tv{
-    display: none;
-}
+#phone{display: block;}
+#tablet{display: none;}
+#print{display: none;}
+#notebook{display: none;}
+#tv{display: none;}
 
