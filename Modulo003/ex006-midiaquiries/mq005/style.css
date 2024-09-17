@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(165, 162, 162);
+}
+
+header > h1{
+    text-align: center;
+}
+
+menu{
+    display: block;
+    text-align: center;
+}
+
+
+menu > ul > li{
+    text-decoration: none;
+    background-color: rgb(76, 75, 75);
+}
+
+menu > a{
+    text-decoration: none;
+    color: white; 
+}
+
+menu > ul > li > a:hover{
+
+}
