@@ -18,6 +18,19 @@ header > h1{
     padding: 10px;
 }
 
+.material-symbols-outlined{
+    display: block;
+    background-color: rgb(98, 97, 97);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.material-symbols-outlined:hover{
+    background-color: rgba(255, 255, 255, 0.515);
+    color: black;
+}
+
 menu{
     display:block; 
     text-align: center;
