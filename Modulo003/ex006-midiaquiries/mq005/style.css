@@ -2,6 +2,11 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding:0px;
+}
+html, body{
+    background-color: lightgrey;
 }
 
 header {
@@ -17,17 +22,41 @@ menu{
     display:block; 
     text-align: center;
 }
-menu li{
+menu ul{
     list-style-type: none;
     border: 1px solid;
     background-color: rgb(113, 112, 112);
 }
 
 menu a {
+    display: block;
+    padding: 10px;
     text-decoration: none;
+    background-color: rgb(87,87,87);
     color: white;
+    text-align: center;
+    border-top: 2px solid gray;
 }
 
 menu ul > li > a:hover{
     background-color: rgb(201, 181, 181);
+}
+
+main{
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+article h2{
+    padding-bottom: 20px;
+}
+
+article p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 20px;
 }
