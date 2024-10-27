@@ -6,50 +6,54 @@
     <style>
         div#conteiner{
             background-color: blue;
-
+            height: 500px;
             display: flex;
+            align-items: flex-start;
+           
+            
         }
         div.item{
             background-color: aqua;
             border: 1px solid black;
             text-align: center;
             flex: auto;
-            padding: 15px;
+            padding: 20px;
         }
         div#i1{
-            order: 3;
+           align-self: auto;
         }
         div#i2{
-            order: 1;
+           align-self:flex-start;
         }
         div#i3{
-            order: -3;
+            align-self: flex-end;
         }
         div#i4{
-            order: 4;
+            align-self: center;
+           
         }
         div#i5{
-            order: -1;
+            align-self: stretch;
         }
         div#i6{
-            order: 0;
+            align-self: flex-end;
         }
         div#i7{
-            order: 5;
+            align-self: flex-start;
         }
-        
+
     </style>
     <title>Flexible Box</title>
 </head>
 <body>
     <div id="conteiner">
-        <div class="item" id="i1" >1Amor</div>
-        <div class="item" id="i2">2Bola</div>
-        <div class="item" id="i3">3Casa</div>
-        <div class="item" id="i4">4Dado</div>
+        <div class="item" id="i1" >Amor</div>
+        <div class="item" id="i2">Bola</div>
+        <div class="item" id="i3">Casa</div>
+        <div class="item" id="i4">Dado</div>
         <div class="item" id="i5">5Escola</div>
-        <div class="item" id="i6">6Formiga</div>
-        <div class="item" id="i7">7Gato</div>
+        <div class="item" id="i6">Formiga</div>
+        <div class="item" id="i7">Gato</div>
     </div>
 </body>
 </html>
