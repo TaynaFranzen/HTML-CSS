@@ -6,27 +6,51 @@
     <style>
         div#conteiner{
             background-color: blue;
-
+            flex-flow: row nowrap;
             display: flex;
         }
         div.item{
             background-color: aqua;
             border: 1px solid black;
+            height: 80px;
             text-align: center;
-            flex: auto;
-        }
+            flex-basis: 210px;
+            flex:auto;
+                }
+            #amor{
+                flex: 0 1 210px
+            }
+            #bola{
+                flex: 1 1 210px;
+            }
+            #casa{
+                flex: 0 1 210px;
+            }
+            #amor1{
+                flex: 1 1 210px;
+                background-color: blueviolet;
+            }
+            #bola2{
+                flex: 1 0 210px;
+                background-color: blueviolet;
+            }
+            #casa3{
+                flex:1 5 210px;
+                background-color: blueviolet;
+            }
     </style>
     <title>Flexible Box</title>
 </head>
 <body>
     <div id="conteiner">
-        <div class="item">Amor</div>
-        <div class="item">Bola</div>
-        <div class="item">Casa</div>
-        <div class="item">Dado</div>
-        <div class="item">Escola</div>
-        <div class="item">Formiga</div>
-        <div class="item">Gato</div>
+        <div class="item" id="amor">Amor</div>
+        <div class="item" id="bola">Bola</div>
+        <div class="item"id=casa>Casa</div>
+    </div>
+    <div id="conteiner">
+        <div class="item" id="amor1">Amor</div>
+        <div class="item" id="bola2">Bola</div>
+        <div class="item"id="casa3">Casa</div>
     </div>
 </body>
 </html>
