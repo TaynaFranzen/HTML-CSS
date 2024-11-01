@@ -18,12 +18,20 @@ header{
     background-color: gray;
     color: white;
     padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: center;
 }
 header > h1{
     text-shadow: 1px 1px 5px black;
+    flex: 0px 0px 300px;
 }
 header > nav{
     padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
 }
 header > nav > a{
     text-decoration: none;
